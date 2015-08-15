@@ -28,6 +28,71 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
+
+/*Start from Sidebar*/
+
+.sidebar{
+	float: left;
+	width:18%;
+}
+.s-main{
+	background: #f8f8f8;
+	margin-top: 30px;
+	border: 1px solid rgb(233, 233, 233);
+	box-shadow: 0 40px 30px -40px #999;
+	-webkit-box-shadow: 0 40px 30px -40px #999;
+	-moz-box-shadow: 0 40px 30px -40px #999;
+	-o-box-shadow: 0 40px 30px -40px #999;
+	border-radius: 0.6em;
+	-webkit-border-radius: 0.6em;	
+	-moz-border-radius: 0.6em;
+	-o-border-radius: 0.6em;	
+}
+.s-main:first-child{
+	margin-top: 0;
+}
+.s_hdr{
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fcf00), color-stop(100%, #6b9c00));
+	background: -webkit-linear-gradient(top, #8fcf00, #6b9c00);
+	background: -moz-linear-gradient(top, #8fcf00, #6b9c00);
+	background: -o-linear-gradient(top, #8fcf00, #6b9c00);
+	background: linear-gradient(top, #8fcf00, #6b9c00);
+	background-color: #7db500;
+	border-color: #5a8200;
+	border-radius: 0.6em;
+	-webkit-border-radius: 0.6em;	
+	-moz-border-radius: 0.6em;
+	-o-border-radius: 0.6em;	
+        padding:10px;
+        
+}
+
+.text1-nav{
+	padding:20px;
+}
+.text1-nav ul li{
+	display:inline;
+}
+.text1-nav ul li a {
+	display: block;
+	font-size: 0.825em;
+	color: #777;
+	letter-spacing: 0px;
+	line-height: 2.8em;
+	border-bottom: 1px solid #EEEEEE;
+}
+.text1-nav ul li:before{
+	margin-top: 12px;
+	margin-right: 10px;
+	content: url('../images/arrow1.png');
+	float: left;
+}
+.text1-nav ul li a:hover{
+	color: #6FA200;
+}
+/*End of Sidebar*/
+
+
 body{
 	font-family:Arial, Helvetica, sans-serif;
 	background:url(../images/body_bg3.jpg);
@@ -682,8 +747,8 @@ p.note{
 }
 .header_bottom_right_images{
 	float:left;
-	width:49%;
-	margin-left:1%;
+	width:75%;
+	margin-left:5%;
 	padding-top: 15px;
 }
 .content{
