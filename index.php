@@ -60,7 +60,7 @@ elseif ($page_name=='contact-post.html') {
 	}
 else
 	{
-		include $browser_t.'/404.html';
+		include $browser_t.'/index.html';
 	}
 
 ?>
